@@ -3,13 +3,13 @@ public class Main {
         int score = 250;
         int deposits = 1200;
         int ruble;
-        int final_score;
+        int finalScore;
         if (deposits > 1000) {
             ruble = deposits / 100;
         } else {
             ruble = 0;
         }
-        final_score = score + deposits + ruble;
-        System.out.println(" Сумма баланаса: " + final_score);
+        finalScore = score + deposits + ruble;
+        System.out.println(" Сумма баланаса: " + finalScore);
     }
 }
